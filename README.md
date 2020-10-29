@@ -9,6 +9,11 @@ To run this Flask server on your own computer,
 
 Note the MAIN form page, should be the ```templates/paypal_page.html``` file.
 
+# Preview Images
+![Preview](preview_images/default_page.png)
+
+![Preview](preview_images/page_with_paypal_button.png)
+
 # Requirements
 - WTForms (2.3.3)
 - Flask (1.1.2)
