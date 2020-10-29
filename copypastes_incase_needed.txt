@@ -1,0 +1,56 @@
+const B_val   = Number(document.getElementById('B').textContent);
+	const AH_val	= Number(document.getElementById('AH').textContent);
+	const	AI_val  = Number(document.getElementById('AI').textContent);
+	const	F_val   = Number(document.getElementById('F').textContent);
+	const	D_val	  = Number(document.getElementById('D').textContent);
+	const	H_val	  = Number(document.getElementById('H').textContent);
+	const	M_val	  = Number(document.getElementById('M').textContent);
+	const	AF_val  = Number(document.getElementById('AF').textContent);
+	const	L_val	  = Number(document.getElementById('L').textContent);
+	const	K_val	  = Number(document.getElementById('K').textContent);
+	const	J_val	  = Number(document.getElementById('J').textContent);
+	const	I_val	  = Number(document.getElementById('I').textContent);
+	const	R_val	  = Number(document.getElementById('R').textContent);
+	const	U_val	  = Number(document.getElementById('U').textContent);
+	const	X_val	  = Number(document.getElementById('X').textContent);
+	const	AA_val  = Number(document.getElementById('AA').textContent);
+  const	AB_val	= Number(document.getElementById('AB').textContent);
+
+  const B   = document.getElementById('B');
+	const AH	= document.getElementById('AH');
+	const	AI  = document.getElementById('AI');
+	const	F   = document.getElementById('F');
+	const	D	  = document.getElementById('D');
+	const	H	  = document.getElementById('H');
+	const	M	  = document.getElementById('M');
+	const	AF  = document.getElementById('AF');
+	const	L	  = document.getElementById('L');
+	const	K	  = document.getElementById('K');
+	const	J	  = document.getElementById('J');
+	const	I	  = document.getElementById('I');
+	const	R	  = document.getElementById('R');
+	const	U	  = document.getElementById('U');
+	const	X	  = document.getElementById('X');
+	const	AA  = document.getElementById('AA');
+  const	AB	= document.getElementById('AB');
+
+
+// const B_val   = Number(document.getElementById('B').value);
+    // const AH_val	= Number(document.getElementById('AH').value);
+    // const	AI_val  = Number(document.getElementById('AI').value);
+    // const	F_val   = Number(document.getElementById('F').value);
+    // const	D_val	  = Number(document.getElementById('D').value);
+    // const	H_val	  = Number(document.getElementById('H').value);
+    // const	M_val	  = Number(document.getElementById('M').value);
+    // const	AF_val  = Number(document.getElementById('AF').value);
+    // const	L_val	  = Number(document.getElementById('L').value);
+    // const	K_val	  = Number(document.getElementById('K').value);
+    // const	J_val	  = Number(document.getElementById('J').value);
+    // const	I_val	  = Number(document.getElementById('I').value);
+
+
+    const	R_val	  = Number(getCheckedValue(document.getElementsByName('R')));
+    const	U_val	  = Number(getCheckedValue(document.getElementsByName('U')));
+    const	X_val	  = Number(getCheckedValue(document.getElementsByName('X')));
+    const	AA_val  = Number(getCheckedValue(document.getElementsByName('AA')));
+    const	AB_val	= Number(getCheckedValue(document.getElementsByName('AB')));
