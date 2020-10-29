@@ -1,5 +1,5 @@
 # Written by Wei Ern (Ryan) Tan for ENACTUS's Carbon Offset project.
-# Please do not email me unless necessary, i might cry trying to fix my code.
+# Please do not email me unless necessary
 
 import requests
 import json, base64
@@ -12,8 +12,6 @@ class APIKeys:
 
 	"""
 
-	"""keep these in a class to just be safe from global variables (imagine this is a struct lol), if more Oject Oriented is needed,
-	can have the functions become methods in the class and do constructor things, but i cant really be arsed"""
 
 
 	sandbox_client_id=""
